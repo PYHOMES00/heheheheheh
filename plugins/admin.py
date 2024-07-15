@@ -17,7 +17,7 @@ async def ping(_, message):
     time_taken_s = (end_t - start_t) * 1000
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://telegra.ph/file/c05c0889dcd0c1054de3f.jpg"
     
     # Send the picture along with the ping response
     await message.reply_photo(
@@ -36,7 +36,7 @@ async def get_stats(bot, message):
     time_taken_s = (time.time() - botStartTime) * 1000
 
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://telegra.ph/file/c05c0889dcd0c1054de3f.jpg"
 
     # Send the picture along with the statistics message
     await bot.send_photo(
@@ -49,7 +49,7 @@ async def get_stats(bot, message):
 @Client.on_message(filters.private & filters.command(["donate", "d"]))
 async def donate(client, message):
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://telegra.ph/file/c05c0889dcd0c1054de3f.jpg"
     
     text = """</b>❤️ᴛʜᴀɴᴋs ꜰᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ 😟
 ᴅᴏɴᴀᴛᴇ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ᴄᴏɴᴛɪɴᴏᴜsʟʏ ᴀʟɪᴠᴇ 😢
@@ -58,14 +58,14 @@ async def donate(client, message):
 📨 ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs 💳
 ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ ... 
 ❤️ꜰᴏʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇssᴀɢᴇ ᴍᴇ💬 
- 👉 <i>@anmol0700</i> [or here via this bot]
+ 👉 <i>@shubham_X_official</i> [or here via this bot]
 ᴏʀ ʏᴏᴜ ᴄᴀɴ sᴄᴀɴ ᴛʜᴇ ǫʀ ᴄᴏᴅᴇ 👇
 ᴜᴘɪ ʟɪɴᴋ 🔗 ᴀʟsᴏ ᴛʜᴇʀᴇ 😇
 🌹 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 🌹</b>
 
-🛍 UPI ID:</b> <code>anmol0700@fam</code>"""
+🛍 UPI ID:</b> <code>maurya-shubham@fam</code>"""
     keybord = InlineKeyboardMarkup([[
-        InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ 💳', url='https://te.legra.ph/Donate-Us-03-15')
+        InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ 💳', url='https://te.legra.ph/Donate-Us-07-05')
         ]])
     
     # Send the picture along with the donation message
